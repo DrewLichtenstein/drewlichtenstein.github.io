@@ -1,9 +1,35 @@
-.card {
-	display: inline-block;
+
+%card {
+  display: inline-block;
   border: 0.1em solid;
   padding: 0.5em;
   box-shadow: 0.2em 0.2em 0.2em 0.2em $black;
-  background-color: lighten($neutral-gray, 40%);
   display: inline-block;
-  width: 800px;
+  margin-top: 0.5em;
+}
+
+#intro_card {
+  @extend %card;
+  background-color: lighten($neutral-gray, 40%);
+  width: 75%;
+}
+
+#justice_card {
+	@extend %card;
+	background-color: lighten($primary-color, 40%);
+}
+
+#prediction_card {
+	@extend %card;
+	background-color: lighten($analogous-color, 40%);
+}
+
+#cities_card {
+	@extend %card;
+	background-color: lighten($complementary-color, 40%);
+}
+
+#other_card {
+	@extend %card;
+	background-color: lighten($complementary-analogous, 40%);
 }

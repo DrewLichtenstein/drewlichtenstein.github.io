@@ -15,15 +15,30 @@ img {
 h1, h2 {
   margin: 0.5em; }
 
-.card {
+#intro_card, #justice_card, #prediction_card, #cities_card, #other_card {
   display: inline-block;
   border: 0.1em solid;
   padding: 0.5em;
   -webkit-box-shadow: 0.2em 0.2em 0.2em 0.2em #2b2b2b;
   box-shadow: 0.2em 0.2em 0.2em 0.2em #2b2b2b;
-  background-color: #e6e6e6;
   display: inline-block;
-  width: 800px; }
+  margin-top: 0.5em; }
+
+#intro_card {
+  background-color: #e6e6e6;
+  width: 75%; }
+
+#justice_card {
+  background-color: #d8eaf3; }
+
+#prediction_card {
+  background-color: #f9d2df; }
+
+#cities_card {
+  background-color: #f9dfd2; }
+
+#other_card {
+  background-color: #fce5e8; }
 
 :root {
   --normal-font-size: 1em;
