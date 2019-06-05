@@ -22,7 +22,8 @@ h1, h2 {
   -webkit-box-shadow: 0.2em 0.2em 0.2em 0.2em #2b2b2b;
   box-shadow: 0.2em 0.2em 0.2em 0.2em #2b2b2b;
   display: inline-block;
-  margin-top: 0.5em; }
+  margin-top: 0.75em;
+  margin-bottom: 0.75em; }
 
 #intro_card {
   background-color: #e6e6e6;
